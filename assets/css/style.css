@@ -1,6 +1,44 @@
-.navbar-brand{
+body {
+    background-color: black;
     color: white;
 }
-.logo-size{
-    height: 3rem;
+
+.card-header-icono{
+    color: white;
+    background: #17a3b8;
+    text-align: center;
+}
+.card-header-icono{
+    color: white;
+    background: #17a3b8;
+    text-align: center;
+}
+
+.card-1{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    display: flex;
+}
+.card-2{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    display: flex;
+}
+.card-3{
+    background-color: black;
+    color: white;
+    text-align: justify;
+    display: flex;
+}
+
+.card-destacada{
+    background-color: #17a3b8;
+    color: white;
+}
+
+.footer-enlaces{
+    color: white;
+    background: #17a3b8;
 }
