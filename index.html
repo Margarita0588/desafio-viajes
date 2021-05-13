@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ml auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="inicio" href="#inicio">Inicio</a> 
+            <a class="nav-link active" aria-current="inicio" href="#Carousel">Inicio</a> 
           </li>
             <li class="nav-item">
               <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
@@ -73,19 +73,19 @@
     <div class="row">
       <div class="col-4">
           <div class="text-center" style="background-color: #17a3b8;">
-            <i class="fas fa-plane"></i>
+            <i class="fas fa-plane" data-toggle="tooltip" data-placement="top" title="Tours con pasajes aéreos incluidos"></i>
           </div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet distinctio ex dignissimos laudantium maxime animi aperiam natus debitis corporis ipsum nam expedita rerum, sed repellat eos vero quidem corrupti! Et.</p>
       </div>
       <div class="col-4">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet distinctio ex dignissimos laudantium maxime animi aperiam natus debitis corporis ipsum nam expedita rerum, sed repellat eos vero quidem corrupti! Et.</p>
           <div class="text-center" style="background-color: #17a3b8;">
-              <i class="fas fa-mountain"></i>
+              <i class="fas fa-mountain data-toggle="tooltip" data-placement="top" title="Rutas extremas"></i>
           </div>
       </div>
       <div class="col-4">
           <div class="text-center" style="background-color: #17a3b8">
-              <i class="fas fa-route"></i>
+              <i class="fas fa-route data-toggle="tooltip" data-placement="top" title="Tours por tierra"></i>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -96,8 +96,23 @@
 
    <!-- Sección Destacados -->
    <section id="destacados" class="container pt-5 mb-5 d-block">
-    <h2 class="text-center">Destacados</h2>
+    <h2 
+    data-toggle="modal" data-target="#exampleModal"
+    class="text-center">Destacados</h2>
     <hr color="#17a3b8">    
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" style="color: black;" id="exampleModalLabel">Encántate con nuestros paisajes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- Tarjetas Destacados -->
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -166,7 +181,6 @@
         </div>
     </section>
     </footer>
-
 
 
  <!-- JQuery -->
