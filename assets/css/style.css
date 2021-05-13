@@ -3,39 +3,11 @@ body {
     color: white;
 }
 
-.card-header-icono{
-    color: white;
-    background: #17a3b8;
-    text-align: center;
-}
-.card-header-icono{
-    color: white;
-    background: #17a3b8;
-    text-align: center;
-}
-
-.card-1{
-    background-color: black;
-    color: white;
-    text-align: justify;
-    display: flex;
-}
-.card-2{
-    background-color: black;
-    color: white;
-    text-align: justify;
-    display: flex;
-}
-.card-3{
-    background-color: black;
-    color: white;
-    text-align: justify;
-    display: flex;
-}
-
 .card-destacada{
     background-color: #17a3b8;
     color: white;
+    border: white;
+    border-style: solid;
 }
 
 .footer-enlaces{
