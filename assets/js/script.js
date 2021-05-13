@@ -4,12 +4,11 @@ $(document).ready(function(){
 
         var gato= this.hash;
         $("html").animate({
-            scrollTop: $(gato).offset().top- 74
+            scrollTop: $(gato).offset().top- 74,
         },
         800
 
         );
-});
 });
 });
 
