@@ -31,12 +31,22 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ml auto">
-            <li class="nav-item"><a href="#" class="nav-link text-white">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white">Quiénes Somos</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white">Destacados</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white">Contacto</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="inicio" href="#inicio">Inicio</a> 
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
         </ul>
     </div>
+</div>
+</nav>
     </nav>
      <!-- Header Carrousel -->
     <header id="Carousel">
@@ -57,7 +67,7 @@
     </section>
 </header>
  <!-- Sección Quiénes Somos -->
-<section class="container pt-5 mb-5 d-sm-none d-md-block">
+<section id="quienes-somos" class="container pt-5 mb-5 d-sm-none d-md-block">
     <h2 class="text-center">¿Quiénes Somos?</h2>
     <hr color="#17a3b8">    
     <div class="row">
@@ -85,7 +95,7 @@
 
 
    <!-- Sección Destacados -->
-   <section class="container pt-5 mb-5 d-block">
+   <section id="destacados" class="container pt-5 mb-5 d-block">
     <h2 class="text-center">Destacados</h2>
     <hr color="#17a3b8">    
 
@@ -133,7 +143,7 @@
 
 
   <!-- Contacto -->
-  <section class="container pt-5 mb-5 d-none d-lg-block">
+  <section id="contacto" class="container pt-5 mb-5 d-none d-lg-block">
     <h2 class="text-center">Contacto</h2>
     <hr color="#17a3b8">    
     <div class="typeform-widget" data-url="https://form.typeform.com/to/QkDTG3uO?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
@@ -149,8 +159,8 @@
                 <div class="enlaces text-center">
                     <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fa-2x" style="color: white;"></i></a>
                     <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin  fa-2x" style="color: white;"></i></a>
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-twitter-square fa-2x" style="color: white;"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: white;"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x" style="color: white;"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x" style="color: white;"></i></a>
                 </div>
             </div>
         </div>
@@ -159,12 +169,11 @@
 
 
 
-
-    <!-- Bootstrap Bundle -->
+ <!-- JQuery -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- Bootstrap Bundle -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--JavaScript Margarita -->
     <script src="assets/js/scripts.js"></script>
 </body>
